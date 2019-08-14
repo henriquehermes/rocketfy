@@ -3,5 +3,9 @@ import React from 'react';
 import { Container } from './styles';
 
 export default function Header() {
-  return <Container />;
+  return (
+    <Container>
+      <h1>Rocketfy</h1>
+    </Container>
+  );
 }
